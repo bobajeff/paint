@@ -16,11 +16,17 @@ There are three levels of expansion. Drag up on the toolbox all the way to show 
 
 Tap the Layers button in the top right to show all the layers in the file.
 
-The Layer action menu appears when you long press a layer.
+The Layer action button appears when you long press a layer.
+You can select multiple layers while the action buttons/menu is active.
+You can also move the layer(s) by dragging it through the stack.
+
+![*](images/Layers%20Menu.png)
+
+You access this menu by tapping the more actions (`...`) button.
 
 ![*](images/Layer%20Properties.png)
 
-The Layer properties screen shows up when you tap on the focused layer.
+Layer properties can be accessed either by tapping on the focused layer or via Layers Menu > Layer Properties.
 
 ## Dialogs
 ![*](images/Paint%20Menu.png)

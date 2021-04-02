@@ -24,9 +24,10 @@
   * layer actions
     * add layer
     * delete layer
-    * cut
-    * copy
-    * paste
+    * move layer(s) between files
+      * cut
+      * copy
+      * paste
     * duplicate
     * move up / down
     * merge selected
