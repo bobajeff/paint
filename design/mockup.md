@@ -35,8 +35,8 @@ The paint menu will appear on clicking the hamburger button in the top left.
 
 ![*](images/General%20Brush%20Settings.png)
 
-The brush setting appear upon tapping a focused brush in the toolbox.
+The brush setting appear upon long press the focused brush in the toolbox.
 
 ![*](images/Brush%20Selection.png)
 
-Brush selection screen shows up when you add a new brush.
+Brush selection screen shows up when you tap on a focused brush or add a new brush.
