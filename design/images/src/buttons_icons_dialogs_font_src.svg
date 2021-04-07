@@ -2630,7 +2630,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.32000001"
-     inkscape:cx="401.64746"
+     inkscape:cx="564.14745"
      inkscape:cy="1610.4813"
      inkscape:document-units="mm"
      inkscape:current-layer="layer14"
@@ -3726,6 +3726,34 @@
          d="M 0,0 H 24 V 24 H 0 Z"
          inkscape:connector-curvature="0"
          style="fill:none" />
+    </g>
+    <g
+       style="display:inline;fill:#000000"
+       id="g906"
+       transform="matrix(1.1761888,0,0,1.1761888,256.01041,124.00424)">
+      <path
+         id="path892"
+         d="M 0,0 H 24 V 24 H 0 Z"
+         inkscape:connector-curvature="0"
+         style="fill:none" />
+      <path
+         id="path894"
+         d="M 18.4,10.6 C 16.55,8.99 14.15,8 11.5,8 6.85,8 2.92,11.03 1.54,15.22 L 3.9,16 c 1.05,-3.19 4.05,-5.5 7.6,-5.5 1.95,0 3.73,0.72 5.12,1.88 L 13,16 h 9 V 7 Z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       style="display:inline;fill:#000000"
+       id="g922"
+       transform="matrix(1.1761888,0,0,1.1761888,101.06053,124.00424)">
+      <path
+         id="path908"
+         d="M 0,0 H 24 V 24 H 0 Z"
+         inkscape:connector-curvature="0"
+         style="fill:none" />
+      <path
+         id="path910-3"
+         d="M 12.5,8 C 9.85,8 7.45,8.99 5.6,10.6 L 2,7 v 9 h 9 L 7.38,12.38 c 1.39,-1.16 3.16,-1.88 5.12,-1.88 3.54,0 6.55,2.31 7.6,5.5 l 2.37,-0.78 C 21.08,11.03 17.15,8 12.5,8 Z"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
   <g

@@ -10,6 +10,10 @@ The toolbox will expand if you drag it up or tap on the focused tool.
 
 There are three levels of expansion. Drag up on the toolbox all the way to show it fully. The Toolbox will collapse once it looses focus.
 
+![toolbox longpress](images/Toolbox_Long_Press.png)
+
+Long press a tool in the toolbox to edit the tool. (change brush, brush settings, remove brush)
+
 ## Layers
 
 ![*](images/Layers.png)
@@ -35,8 +39,8 @@ The paint menu will appear on clicking the hamburger button in the top left.
 
 ![*](images/General%20Brush%20Settings.png)
 
-The brush setting appear upon long press the focused brush in the toolbox.
+The brush settings appear when you tap on the focused brush in the toolbox or when you long press the brush and tap the brush settings button.
 
 ![*](images/Brush%20Selection.png)
 
-Brush selection screen shows up when you tap on a focused brush or add a new brush.
+Brush selection screen shows up when add a new brush or when you long press a brush and tap on the brush select button.

@@ -1071,6 +1071,24 @@
          y="240.16478"
          transform="rotate(-135)" />
     </clipPath>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter1159">
+      <feGaussianBlur
+         stdDeviation="2 2"
+         result="blur"
+         id="feGaussianBlur1157" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter1163">
+      <feGaussianBlur
+         stdDeviation="2 2"
+         result="blur"
+         id="feGaussianBlur1161" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1079,11 +1097,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.22627418"
-     inkscape:cx="475.71828"
-     inkscape:cy="1858.2632"
+     inkscape:zoom="0.45254836"
+     inkscape:cx="688.76651"
+     inkscape:cy="681.51201"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1024"
+     inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:window-width="1440"
      inkscape:window-height="839"
@@ -1094,7 +1112,7 @@
      inkscape:bbox-nodes="false"
      inkscape:bbox-paths="false"
      inkscape:snap-page="true"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-others="true"
@@ -1123,18 +1141,18 @@
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/bg_image/background_image.png"
        xlink:href="linked_images/bg_image/background_image.png"
-       y="-0.027099609"
-       x="0"
-       id="image2423"
-       preserveAspectRatio="none"
+       width="360.09793"
        height="640.0271"
-       width="360.09793" />
+       preserveAspectRatio="none"
+       id="image2423"
+       x="0"
+       y="-0.027099609" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="g2184"
      inkscape:label="toolbar"
-     style="display:none;opacity:1"
+     style="display:inline;opacity:1"
      sodipodi:insensitive="true">
     <rect
        style="display:inline;opacity:0.98999999;vector-effect:none;fill:#fdfdfd;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332"
@@ -1154,25 +1172,25 @@
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_4.png"
        xlink:href="linked_images/brushes/brush_4.png"
-       clip-path="url(#clipPath3157)"
-       transform="rotate(135,-178.62942,127.64762)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image2168"
+       y="-592.30206"
        x="-200.78207"
-       y="-592.30206" />
+       id="image2168"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-178.62942,127.64762)"
+       clip-path="url(#clipPath3157)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_2.png"
        xlink:href="linked_images/brushes/brush_2.png"
-       clip-path="url(#clipPath3176)"
-       transform="rotate(135,-243.16462,91.491172)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image2178"
+       y="-592.30206"
        x="-200.78207"
-       y="-592.30206" />
+       id="image2178"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-243.16462,91.491172)"
+       clip-path="url(#clipPath3176)" />
     <g
        style="display:inline"
        id="g3235-37-5"
@@ -1202,14 +1220,14 @@
       <image
          sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_3.png"
          xlink:href="linked_images/brushes/brush_3.png"
-         y="-592.30206"
-         x="-200.78207"
-         id="image2176"
-         preserveAspectRatio="none"
-         height="135.46666"
-         width="135.46666"
+         clip-path="url(#clipPath1871)"
          transform="rotate(135,-207.29212,115.77514)"
-         clip-path="url(#clipPath1871)" />
+         width="135.46666"
+         height="135.46666"
+         preserveAspectRatio="none"
+         id="image2176"
+         x="-200.78207"
+         y="-592.30206" />
       <path
          sodipodi:nodetypes="ccccccscsssc"
          inkscape:connector-curvature="0"
@@ -1222,6 +1240,96 @@
          id="path2321"
          d="m 177.07942,679.84988 c 0.90426,-12.81558 0.89855,-32.00101 2.71279,-38.44673 2.8056,4.24753 4.97608,4.77505 6.95017,4.15233 1.97409,-0.62272 3.7518,-2.39569 5.77186,-2.74917 2.54248,0.23823 3.86363,1.93058 5.23785,1.21438 1.27387,-0.6639 2.34347,-1.89314 3.92949,-2.3369 1.16954,-0.45023 2.42399,-0.89559 3.90548,2.31524 0.17134,12.01264 0.01,24.02529 -0.25725,36.03794 z"
          style="display:inline;fill:#11ae02;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="tool select"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="display:inline;opacity:0.18200001;vector-effect:none;fill:#0066ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26458332"
+       id="rect2215-1"
+       width="37.041702"
+       height="74.461273"
+       x="173.74936"
+       y="587.14087"
+       ry="9.8889723" />
+    <g
+       id="g2061"
+       transform="translate(156.1021,354.88381)">
+      <ellipse
+         style="display:inline;opacity:0.98999999;vector-effect:none;fill:#1976d2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.1767391;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse4306-3-6-2"
+         cx="134.7623"
+         cy="124.92151"
+         rx="19.884251"
+         ry="20.669155" />
+      <g
+         transform="matrix(1.1764373,0,0,1.1764373,120.40845,110.91168)"
+         id="g3506-2-7"
+         style="display:inline">
+        <path
+           style="fill:none"
+           inkscape:connector-curvature="0"
+           d="M 0,0 H 24 V 24 H 0 Z"
+           id="path3492-2-0" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 6,19 c 0,1.1 0.9,2 2,2 h 8 c 1.1,0 2,-0.9 2,-2 V 7 H 6 Z M 19,4 h -3.5 l -1,-1 h -5 l -1,1 H 5 v 2 h 14 z"
+           id="path3494-8-9" />
+      </g>
+    </g>
+    <g
+       id="g2188"
+       transform="translate(47.574649,8.3928788)">
+      <ellipse
+         style="display:inline;opacity:0.98999999;vector-effect:none;fill:#1976d2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.1767391;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse4306-3-6-2-0"
+         cx="142.65511"
+         cy="401.46194"
+         rx="19.884251"
+         ry="20.669155" />
+      <g
+         transform="matrix(1.1764373,0,0,1.1764373,128.30126,387.45213)"
+         id="g3083"
+         style="display:inline">
+        <path
+           style="fill:none"
+           inkscape:connector-curvature="0"
+           d="M 0,0 H 24 V 24 H 0 Z"
+           id="path3069" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 3,17 v 2 H 9 V 17 Z M 3,5 V 7 H 13 V 5 Z m 10,16 v -2 h 8 v -2 h -8 v -2 h -2 v 6 z M 7,9 v 2 H 3 v 2 h 4 v 2 H 9 V 9 Z m 14,4 V 11 H 11 v 2 z M 15,9 h 2 V 7 h 4 V 5 H 17 V 3 h -2 z"
+           id="path3071" />
+      </g>
+    </g>
+    <g
+       id="g2245"
+       transform="translate(29.817255,94.128983)">
+      <ellipse
+         style="display:inline;opacity:0.98999999;vector-effect:none;fill:#1976d2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.1767391;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse4306-3-6-2-1"
+         cx="65.319008"
+         cy="384.51175"
+         rx="19.884251"
+         ry="20.669155" />
+      <g
+         transform="matrix(1.1764373,0,0,1.1764373,50.965159,370.50191)"
+         id="g2790"
+         style="display:inline">
+        <path
+           style="fill:none"
+           inkscape:connector-curvature="0"
+           d="M 0,0 H 24 V 24 H 0 Z"
+           id="path2776" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 7,14 c -1.66,0 -3,1.34 -3,3 0,1.31 -1.16,2 -2,2 0.92,1.22 2.49,2 4,2 2.21,0 4,-1.79 4,-4 0,-1.66 -1.34,-3 -3,-3 z M 20.71,4.63 19.37,3.29 C 18.98,2.9 18.35,2.9 17.96,3.29 L 9,12.25 11.75,15 20.71,6.04 c 0.39,-0.39 0.39,-1.02 0,-1.41 z"
+           id="path2778" />
+      </g>
     </g>
   </g>
   <g
@@ -1306,27 +1414,27 @@
       <image
          sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_4.png"
          xlink:href="linked_images/brushes/brush_4.png"
-         clip-path="url(#clipPath3157-6-8)"
-         transform="rotate(135,-152.20396,51.877245)"
-         width="135.46666"
-         height="135.46666"
-         preserveAspectRatio="none"
-         id="image3521-1"
-         x="-200.78207"
+         style="display:inline;opacity:1"
          y="-592.30206"
-         style="display:inline;opacity:1" />
+         x="-200.78207"
+         id="image3521-1"
+         preserveAspectRatio="none"
+         height="135.46666"
+         width="135.46666"
+         transform="rotate(135,-152.20396,51.877245)"
+         clip-path="url(#clipPath3157-6-8)" />
       <image
          sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_2.png"
          xlink:href="linked_images/brushes/brush_2.png"
-         clip-path="url(#clipPath3176-6-2)"
-         transform="rotate(135,-212.50584,17.474315)"
-         width="135.46666"
-         height="135.46666"
-         preserveAspectRatio="none"
-         id="image3523-0"
-         x="-200.78207"
+         style="display:inline;opacity:1"
          y="-592.30206"
-         style="display:inline;opacity:1" />
+         x="-200.78207"
+         id="image3523-0"
+         preserveAspectRatio="none"
+         height="135.46666"
+         width="135.46666"
+         transform="rotate(135,-212.50584,17.474315)"
+         clip-path="url(#clipPath3176-6-2)" />
       <g
          style="display:inline;opacity:1"
          id="g3535-6"
@@ -1358,14 +1466,14 @@
         <image
            sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_3.png"
            xlink:href="linked_images/brushes/brush_3.png"
-           y="-592.30206"
-           x="-200.78207"
-           id="image3539-9"
-           preserveAspectRatio="none"
-           height="135.46666"
-           width="135.46666"
+           clip-path="url(#clipPath1871-6-9)"
            transform="rotate(135,-207.29212,115.77514)"
-           clip-path="url(#clipPath1871-6-9)" />
+           width="135.46666"
+           height="135.46666"
+           preserveAspectRatio="none"
+           id="image3539-9"
+           x="-200.78207"
+           y="-592.30206" />
         <path
            sodipodi:nodetypes="ccccccscsssc"
            inkscape:connector-curvature="0"
@@ -1559,27 +1667,27 @@
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_4.png"
        xlink:href="linked_images/brushes/brush_4.png"
-       style="display:inline;opacity:1"
-       y="-592.30206"
-       x="-200.78207"
-       id="image3521"
-       preserveAspectRatio="none"
-       height="135.46666"
-       width="135.46666"
+       clip-path="url(#clipPath3157-6)"
        transform="rotate(135,-152.20396,51.877248)"
-       clip-path="url(#clipPath3157-6)" />
+       width="135.46666"
+       height="135.46666"
+       preserveAspectRatio="none"
+       id="image3521"
+       x="-200.78207"
+       y="-592.30206"
+       style="display:inline;opacity:1" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_2.png"
        xlink:href="linked_images/brushes/brush_2.png"
-       style="display:inline;opacity:1"
-       y="-592.30206"
-       x="-200.78207"
-       id="image3523"
-       preserveAspectRatio="none"
-       height="135.46666"
-       width="135.46666"
+       clip-path="url(#clipPath3176-6)"
        transform="rotate(135,-212.50584,17.474315)"
-       clip-path="url(#clipPath3176-6)" />
+       width="135.46666"
+       height="135.46666"
+       preserveAspectRatio="none"
+       id="image3523"
+       x="-200.78207"
+       y="-592.30206"
+       style="display:inline;opacity:1" />
     <g
        transform="matrix(1.4333866,0,0,1.4333866,272.34389,462.58779)"
        id="g3535"
@@ -1611,14 +1719,14 @@
       <image
          sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_3.png"
          xlink:href="linked_images/brushes/brush_3.png"
-         clip-path="url(#clipPath1871-6)"
-         transform="rotate(135,-207.29212,115.77514)"
-         width="135.46666"
-         height="135.46666"
-         preserveAspectRatio="none"
-         id="image3539"
+         y="-592.30206"
          x="-200.78207"
-         y="-592.30206" />
+         id="image3539"
+         preserveAspectRatio="none"
+         height="135.46666"
+         width="135.46666"
+         transform="rotate(135,-207.29212,115.77514)"
+         clip-path="url(#clipPath1871-6)" />
       <path
          style="display:inline;opacity:1;fill:#11ae02;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 188.02411,613.80758 5.28525,-19.64431 -0.0935,-1.40316 1.16931,-0.88868 1.68379,2.99341 c 0,0 0.98222,9.02703 1.73057,10.47697 0.14032,0.60805 0.0198,3.12108 0.60804,5.09817 0.6123,2.05798 0.5182,2.87648 0.49111,2.87648 -0.13178,0.18352 -0.80605,0.53938 -1.89531,1.67701 -0.57292,0.59836 -1.8262,0.11996 -2.57107,0.42956 -0.90468,0.37603 -2.37764,0.5998 -3.09744,-0.10922 -0.79877,-0.78681 -2.18302,-1.1203 -3.31075,-1.50623 z"
@@ -1754,615 +1862,615 @@
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_43.png"
        xlink:href="linked_images/brushes/brush_43.png"
-       clip-path="url(#clipPath2059-3)"
-       transform="rotate(135,-309.14844,260.53553)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1253"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1253"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-309.14844,260.53553)"
+       clip-path="url(#clipPath2059-3)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_44.png"
        xlink:href="linked_images/brushes/brush_44.png"
-       clip-path="url(#clipPath2055-7)"
-       transform="rotate(135,-272.86273,275.56557)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1255"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1255"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-272.86273,275.56557)"
+       clip-path="url(#clipPath2055-7)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_26.png"
        xlink:href="linked_images/brushes/brush_26.png"
-       clip-path="url(#clipPath2051-3)"
-       transform="rotate(135,-274.81905,64.334751)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1257"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1257"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-274.81905,64.334751)"
+       clip-path="url(#clipPath2051-3)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_45.png"
        xlink:href="linked_images/brushes/brush_45.png"
-       clip-path="url(#clipPath2047-6)"
-       transform="rotate(135,-235.0651,291.22185)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1259"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1259"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-235.0651,291.22185)"
+       clip-path="url(#clipPath2047-6)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_46.png"
        xlink:href="linked_images/brushes/brush_46.png"
-       clip-path="url(#clipPath2043-9)"
-       transform="rotate(135,-204.82701,303.74688)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1261"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1261"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-204.82701,303.74688)"
+       clip-path="url(#clipPath2043-9)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_37.png"
        xlink:href="linked_images/brushes/brush_37.png"
-       clip-path="url(#clipPath2039-2)"
-       transform="rotate(135,-321.88837,180.10831)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1263"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1263"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-321.88837,180.10831)"
+       clip-path="url(#clipPath2039-2)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_38.png"
        xlink:href="linked_images/brushes/brush_38.png"
-       clip-path="url(#clipPath2035-0)"
-       transform="rotate(135,-287.8705,194.19896)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1265"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1265"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-287.8705,194.19896)"
+       clip-path="url(#clipPath2035-0)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_39.png"
        xlink:href="linked_images/brushes/brush_39.png"
-       clip-path="url(#clipPath2031-3)"
-       transform="rotate(135,-250.82884,209.54212)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1267"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1267"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-250.82884,209.54212)"
+       clip-path="url(#clipPath2031-3)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_40.png"
        xlink:href="linked_images/brushes/brush_40.png"
-       clip-path="url(#clipPath2027-0)"
-       transform="rotate(135,-215.29908,224.25904)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1269"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1269"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-215.29908,224.25904)"
+       clip-path="url(#clipPath2027-0)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_41.png"
        xlink:href="linked_images/brushes/brush_41.png"
-       clip-path="url(#clipPath2023-2)"
-       transform="rotate(135,-182.79313,237.72344)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1271"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1271"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-182.79313,237.72344)"
+       clip-path="url(#clipPath2023-2)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_31.png"
        xlink:href="linked_images/brushes/brush_31.png"
-       clip-path="url(#clipPath2019-1)"
-       transform="rotate(135,-292.29497,117.21613)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1273-7"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1273-7"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-292.29497,117.21613)"
+       clip-path="url(#clipPath2019-1)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_32.png"
        xlink:href="linked_images/brushes/brush_32.png"
-       clip-path="url(#clipPath2015-7)"
-       transform="rotate(135,-256.76521,131.93303)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1275"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1275"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-256.76521,131.93303)"
+       clip-path="url(#clipPath2015-7)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_33.png"
        xlink:href="linked_images/brushes/brush_33.png"
-       clip-path="url(#clipPath2011-2)"
-       transform="rotate(135,-221.99139,146.33681)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1277"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1277"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-221.99139,146.33681)"
+       clip-path="url(#clipPath2011-2)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_34.png"
        xlink:href="linked_images/brushes/brush_34.png"
-       clip-path="url(#clipPath2007-2)"
-       transform="rotate(135,-187.97353,160.42747)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1279"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1279"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-187.97353,160.42747)"
+       clip-path="url(#clipPath2007-2)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_36.png"
        xlink:href="linked_images/brushes/brush_36.png"
-       clip-path="url(#clipPath2003-7)"
-       transform="rotate(135,-155.60873,173.83342)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1281"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1281"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-155.60873,173.83342)"
+       clip-path="url(#clipPath2003-7)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_27.png"
        xlink:href="linked_images/brushes/brush_27.png"
-       clip-path="url(#clipPath1999-9)"
-       transform="rotate(135,-238.53332,79.364794)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1283"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1283"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-238.53332,79.364794)"
+       clip-path="url(#clipPath1999-9)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_28.png"
        xlink:href="linked_images/brushes/brush_28.png"
-       clip-path="url(#clipPath1995-2)"
-       transform="rotate(135,-205.27143,93.142324)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1285"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1285"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-205.27143,93.142324)"
+       clip-path="url(#clipPath1995-2)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_29.png"
        xlink:href="linked_images/brushes/brush_29.png"
-       clip-path="url(#clipPath1991-9)"
-       transform="rotate(135,-167.4738,108.79859)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1287"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1287"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-167.4738,108.79859)"
+       clip-path="url(#clipPath1991-9)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_30.png"
        xlink:href="linked_images/brushes/brush_30.png"
-       clip-path="url(#clipPath1987-3)"
-       transform="rotate(135,-134.96785,122.26301)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1289"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1289"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-134.96785,122.26301)"
+       clip-path="url(#clipPath1987-3)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_21.png"
        xlink:href="linked_images/brushes/brush_21.png"
-       clip-path="url(#clipPath1983-1)"
-       transform="rotate(135,-244.15655,3.1379013)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1291"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1291"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-244.15655,3.1379013)"
+       clip-path="url(#clipPath1983-1)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_25.png"
        xlink:href="linked_images/brushes/brush_25.png"
-       clip-path="url(#clipPath1979-9)"
-       transform="rotate(135,-112.62084,57.621779)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1293"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1293"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-112.62084,57.621779)"
+       clip-path="url(#clipPath1979-9)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_22.png"
        xlink:href="linked_images/brushes/brush_22.png"
-       clip-path="url(#clipPath1975-1)"
-       transform="rotate(135,-211.6506,16.602297)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1295-1"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1295-1"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-211.6506,16.602297)"
+       clip-path="url(#clipPath1975-1)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_23.png"
        xlink:href="linked_images/brushes/brush_23.png"
-       clip-path="url(#clipPath1971-4)"
-       transform="rotate(135,-176.87679,31.006091)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1297"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1297"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-176.87679,31.006091)"
+       clip-path="url(#clipPath1971-4)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_24.png"
        xlink:href="linked_images/brushes/brush_24.png"
-       clip-path="url(#clipPath1967-8)"
-       transform="rotate(135,-142.85893,45.09675)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1299"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1299"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-142.85893,45.09675)"
+       clip-path="url(#clipPath1967-8)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_16.png"
        xlink:href="linked_images/brushes/brush_16.png"
-       clip-path="url(#clipPath1963-5)"
-       transform="rotate(135,-222.06894,-56.600781)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1301"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1301"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-222.06894,-56.600781)"
+       clip-path="url(#clipPath1963-5)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_18.png"
        xlink:href="linked_images/brushes/brush_18.png"
-       clip-path="url(#clipPath1959-3)"
-       transform="rotate(135,-151.00943,-27.166962)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1303"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1303"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-151.00943,-27.166962)"
+       clip-path="url(#clipPath1959-3)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_17.png"
        xlink:href="linked_images/brushes/brush_17.png"
-       clip-path="url(#clipPath1955-1)"
-       transform="rotate(135,-183.51537,-40.631363)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1305"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1305"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-183.51537,-40.631363)"
+       clip-path="url(#clipPath1955-1)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_20.png"
        xlink:href="linked_images/brushes/brush_20.png"
-       clip-path="url(#clipPath1951-6)"
-       transform="rotate(135,-81.461803,1.6406103)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1307"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1307"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-81.461803,1.6406103)"
+       clip-path="url(#clipPath1951-6)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_19.png"
        xlink:href="linked_images/brushes/brush_19.png"
-       clip-path="url(#clipPath1947-2)"
-       transform="rotate(135,-114.7237,-12.13692)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1309"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1309"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-114.7237,-12.13692)"
+       clip-path="url(#clipPath1947-2)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_11.png"
        xlink:href="linked_images/brushes/brush_11.png"
-       clip-path="url(#clipPath1943-6)"
-       transform="rotate(135,-199.2791,-122.3111)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1311"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1311"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-199.2791,-122.3111)"
+       clip-path="url(#clipPath1943-6)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_12.png"
        xlink:href="linked_images/brushes/brush_12.png"
-       clip-path="url(#clipPath1939-5)"
-       transform="rotate(135,-157.70172,-105.08918)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1313"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1313"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-157.70172,-105.08918)"
+       clip-path="url(#clipPath1939-5)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_13.png"
        xlink:href="linked_images/brushes/brush_13.png"
-       clip-path="url(#clipPath1935-4)"
-       transform="rotate(135,-120.66005,-89.746022)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1315"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1315"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-120.66005,-89.746022)"
+       clip-path="url(#clipPath1935-4)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_15.png"
        xlink:href="linked_images/brushes/brush_15.png"
-       clip-path="url(#clipPath1931-6)"
-       transform="rotate(135,-57.916013,-63.75659)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1317-7"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1317-7"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-57.916013,-63.75659)"
+       clip-path="url(#clipPath1931-6)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_7.png"
        xlink:href="linked_images/brushes/brush_7.png"
-       clip-path="url(#clipPath1927-6)"
-       transform="rotate(135,-132.64403,-169.86013)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1319"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1319"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-132.64403,-169.86013)"
+       clip-path="url(#clipPath1927-6)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_9.png"
        xlink:href="linked_images/brushes/brush_9.png"
-       clip-path="url(#clipPath1923-3)"
-       transform="rotate(135,-56.292835,-138.23443)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1321"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1321"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-56.292835,-138.23443)"
+       clip-path="url(#clipPath1923-3)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_8.png"
        xlink:href="linked_images/brushes/brush_8.png"
-       clip-path="url(#clipPath1919-4)"
-       transform="rotate(135,-93.334508,-153.57759)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1323"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1323"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-93.334508,-153.57759)"
+       clip-path="url(#clipPath1919-4)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_10.png"
        xlink:href="linked_images/brushes/brush_10.png"
-       clip-path="url(#clipPath1915-2)"
-       transform="rotate(135,-25.298795,-125.39627)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1325"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1325"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-25.298795,-125.39627)"
+       clip-path="url(#clipPath1915-2)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_6.png"
        xlink:href="linked_images/brushes/brush_6.png"
-       clip-path="url(#clipPath1911-4)"
-       transform="rotate(135,-174.22141,-187.08204)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1327"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1327"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-174.22141,-187.08204)"
+       clip-path="url(#clipPath1911-4)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_14.png"
        xlink:href="linked_images/brushes/brush_14.png"
-       clip-path="url(#clipPath1907-4)"
-       transform="rotate(135,-90.421968,-77.22099)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1329"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1329"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-90.421968,-77.22099)"
+       clip-path="url(#clipPath1907-4)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_5.png"
        xlink:href="linked_images/brushes/brush_5.png"
-       clip-path="url(#clipPath1903-3)"
-       transform="rotate(135,-5.1996276,-177.19106)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1331"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1331"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-5.1996276,-177.19106)"
+       clip-path="url(#clipPath1903-3)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_47.png"
        xlink:href="linked_images/brushes/brush_47.png"
-       clip-path="url(#clipPath1899-7)"
-       transform="rotate(135,-367.10277,305.41772)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1333"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1333"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-367.10277,305.41772)"
+       clip-path="url(#clipPath1899-7)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_52.png"
        xlink:href="linked_images/brushes/brush_52.png"
-       clip-path="url(#clipPath1895-6)"
-       transform="rotate(135,-391.41374,369.24546)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1335"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1335"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-391.41374,369.24546)"
+       clip-path="url(#clipPath1895-6)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_48.png"
        xlink:href="linked_images/brushes/brush_48.png"
-       clip-path="url(#clipPath1891-8)"
-       transform="rotate(135,-333.07571,319.51221)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1337"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1337"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-333.07571,319.51221)"
+       clip-path="url(#clipPath1891-8)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_4.png"
        xlink:href="linked_images/brushes/brush_4.png"
-       clip-path="url(#clipPath1887-31)"
-       transform="rotate(135,-41.013737,-192.02575)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1339-2"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1339-2"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-41.013737,-192.02575)"
+       clip-path="url(#clipPath1887-31)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_49.png"
        xlink:href="linked_images/brushes/brush_49.png"
-       clip-path="url(#clipPath1883-9)"
-       transform="rotate(135,-296.29996,334.74521)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1341"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1341"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-296.29996,334.74521)"
+       clip-path="url(#clipPath1883-9)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_51.png"
        xlink:href="linked_images/brushes/brush_51.png"
-       clip-path="url(#clipPath1879-0)"
-       transform="rotate(135,-230.99582,361.79506)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1343"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1343"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-230.99582,361.79506)"
+       clip-path="url(#clipPath1879-0)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_50.png"
        xlink:href="linked_images/brushes/brush_50.png"
-       clip-path="url(#clipPath1875-8)"
-       transform="rotate(135,-262.99982,348.53859)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1345"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1345"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-262.99982,348.53859)"
+       clip-path="url(#clipPath1875-8)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_3.png"
        xlink:href="linked_images/brushes/brush_3.png"
-       clip-path="url(#clipPath1871-26)"
-       transform="rotate(135,-76.007062,-206.52046)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1347"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1347"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-76.007062,-206.52046)"
+       clip-path="url(#clipPath1871-26)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_2.png"
        xlink:href="linked_images/brushes/brush_2.png"
-       clip-path="url(#clipPath1867-4)"
-       transform="rotate(135,-118.23564,-224.01211)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1349"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1349"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-118.23564,-224.01211)"
+       clip-path="url(#clipPath1867-4)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_42.png"
        xlink:href="linked_images/brushes/brush_42.png"
-       clip-path="url(#clipPath1863-5)"
-       transform="rotate(135,-344.15289,246.03621)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1351"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1351"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-344.15289,246.03621)"
+       clip-path="url(#clipPath1863-5)" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/brushes/brush_1.png"
        xlink:href="linked_images/brushes/brush_1.png"
-       clip-path="url(#clipPath1859-4)"
-       transform="rotate(135,-154.33601,-238.96537)"
-       width="135.46666"
-       height="135.46666"
-       preserveAspectRatio="none"
-       id="image1353"
-       x="-200.78207"
+       style="display:inline"
        y="-592.30206"
-       style="display:inline" />
+       x="-200.78207"
+       id="image1353"
+       preserveAspectRatio="none"
+       height="135.46666"
+       width="135.46666"
+       transform="rotate(135,-154.33601,-238.96537)"
+       clip-path="url(#clipPath1859-4)" />
     <g
        transform="translate(-6.2499985e-8,3.5072837e-6)"
        style="display:inline"
@@ -2461,6 +2569,33 @@
            id="path4310" />
       </g>
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="undo redo"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       id="path910-3-6"
+       d="m 105.00658,40.173586 c -3.1169,0 -5.939755,1.164427 -8.115704,3.058091 l -4.23428,-4.23428 V 49.583096 H 103.2423 l -4.257808,-4.257803 c 1.634898,-1.364379 3.716758,-2.211235 6.022088,-2.211235 4.16371,0 7.70404,2.716996 8.93903,6.469038 l 2.78757,-0.917427 c -1.6349,-4.928231 -6.25732,-8.492083 -11.7266,-8.492083 z"
+       inkscape:connector-curvature="0"
+       style="display:inline;fill:#000000;stroke-width:1.17618883;filter:url(#filter1159)" />
+    <path
+       id="path894-5"
+       d="m 266.89597,43.231677 c -2.17595,-1.893664 -4.9988,-3.058091 -8.1157,-3.058091 -5.46928,0 -10.0917,3.563852 -11.71484,8.492083 l 2.77581,0.917427 c 1.23499,-3.752042 4.76356,-6.469038 8.93903,-6.469038 2.29357,0 4.38718,0.846856 6.02209,2.211235 l -4.25781,4.257803 h 10.5857 V 38.997397 Z"
+       inkscape:connector-curvature="0"
+       style="display:inline;fill:#000000;stroke-width:1.17618883;filter:url(#filter1163)" />
+    <path
+       id="path910-3-6-2"
+       d="m 105.00658,40.173586 c -3.1169,0 -5.939755,1.164427 -8.115704,3.058091 l -4.23428,-4.23428 V 49.583096 H 103.2423 l -4.257807,-4.257803 c 1.634897,-1.364379 3.716757,-2.211235 6.022087,-2.211235 4.16371,0 7.70404,2.716996 8.93903,6.469038 l 2.78757,-0.917427 c -1.6349,-4.928231 -6.25732,-8.492083 -11.7266,-8.492083 z"
+       inkscape:connector-curvature="0"
+       style="display:inline;fill:#ffffff;stroke-width:1.17618883" />
+    <path
+       id="path894-5-9"
+       d="m 266.896,43.231677 c -2.17595,-1.893664 -4.9988,-3.058091 -8.1157,-3.058091 -5.4693,0 -10.0917,3.563852 -11.71484,8.492083 l 2.77581,0.917427 c 1.23498,-3.752042 4.76354,-6.469038 8.93903,-6.469038 2.29357,0 4.38717,0.846856 6.02207,2.211235 l -4.25781,4.257803 h 10.58572 V 38.997397 Z"
+       inkscape:connector-curvature="0"
+       style="display:inline;fill:#ffffff;stroke-width:1.17618883" />
   </g>
   <g
      sodipodi:insensitive="true"
@@ -2782,7 +2917,7 @@
      inkscape:groupmode="layer"
      id="layer22"
      inkscape:label="layers menu"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <rect
        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4670)"
@@ -2952,93 +3087,93 @@
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/layer_thumbnails/Thumb_1.png"
        xlink:href="linked_images/layer_thumbnails/Thumb_1.png"
-       style="display:inline"
-       y="211.50812"
-       x="248.45621"
-       id="image1262"
-       preserveAspectRatio="none"
+       width="100.27708"
        height="86.783333"
-       width="100.27708" />
+       preserveAspectRatio="none"
+       id="image1262"
+       x="248.45621"
+       y="211.50812"
+       style="display:inline" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/layer_thumbnails/Thumb_2.png"
        xlink:href="linked_images/layer_thumbnails/Thumb_2.png"
-       style="display:inline"
-       y="318.42563"
-       x="248.45621"
-       id="image1273"
-       preserveAspectRatio="none"
+       width="100.27708"
        height="86.783333"
-       width="100.27708" />
+       preserveAspectRatio="none"
+       id="image1273"
+       x="248.45621"
+       y="318.42563"
+       style="display:inline" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/layer_thumbnails/Thumb_3.png"
        xlink:href="linked_images/layer_thumbnails/Thumb_3.png"
-       style="display:inline"
-       y="427.40817"
-       x="248.45621"
-       id="image1284"
-       preserveAspectRatio="none"
+       width="100.27708"
        height="86.783333"
-       width="100.27708" />
+       preserveAspectRatio="none"
+       id="image1284"
+       x="248.45621"
+       y="427.40817"
+       style="display:inline" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/layer_thumbnails/Thumb_4.png"
        xlink:href="linked_images/layer_thumbnails/Thumb_4.png"
-       style="display:inline"
-       y="530.09229"
-       x="248.45621"
-       id="image1295"
-       preserveAspectRatio="none"
+       width="100.27708"
        height="86.783333"
-       width="100.27708" />
+       preserveAspectRatio="none"
+       id="image1295"
+       x="248.45621"
+       y="530.09229"
+       style="display:inline" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/layer_thumbnails/Thumb_5.png"
        xlink:href="linked_images/layer_thumbnails/Thumb_5.png"
-       style="display:inline"
-       y="626.8233"
-       x="248.45622"
-       id="image1306"
-       preserveAspectRatio="none"
+       width="100.27708"
        height="86.783333"
-       width="100.27708" />
+       preserveAspectRatio="none"
+       id="image1306"
+       x="248.45622"
+       y="626.8233"
+       style="display:inline" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/layer_thumbnails/Thumb_6.png"
        xlink:href="linked_images/layer_thumbnails/Thumb_6.png"
-       style="display:inline"
-       y="733.71503"
-       x="248.45621"
-       id="image1317"
-       preserveAspectRatio="none"
+       width="100.27708"
        height="86.783333"
-       width="100.27708" />
+       preserveAspectRatio="none"
+       id="image1317"
+       x="248.45621"
+       y="733.71503"
+       style="display:inline" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/layer_thumbnails/Thumb_7.png"
        xlink:href="linked_images/layer_thumbnails/Thumb_7.png"
-       style="display:inline"
-       y="842.72339"
-       x="248.45621"
-       id="image1328"
-       preserveAspectRatio="none"
+       width="100.27708"
        height="86.783333"
-       width="100.27708" />
+       preserveAspectRatio="none"
+       id="image1328"
+       x="248.45621"
+       y="842.72339"
+       style="display:inline" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/layer_thumbnails/Thumb_8.png"
        xlink:href="linked_images/layer_thumbnails/Thumb_8.png"
-       style="display:inline"
-       y="943.84918"
-       x="248.45621"
-       id="image1339"
-       preserveAspectRatio="none"
+       width="100.27708"
        height="86.783333"
-       width="100.27708" />
+       preserveAspectRatio="none"
+       id="image1339"
+       x="248.45621"
+       y="943.84918"
+       style="display:inline" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/layer_thumbnails/Thumb_9.png"
        xlink:href="linked_images/layer_thumbnails/Thumb_9.png"
-       style="display:inline"
-       y="1046.4817"
-       x="248.45375"
-       id="image1350"
-       preserveAspectRatio="none"
+       width="100.27708"
        height="86.783333"
-       width="100.27708" />
+       preserveAspectRatio="none"
+       id="image1350"
+       x="248.45375"
+       y="1046.4817"
+       style="display:inline" />
     <g
        style="display:inline"
        transform="translate(-2.9583334e-6,105.83333)"
@@ -3332,7 +3467,7 @@
      inkscape:groupmode="layer"
      id="layer25"
      inkscape:label="quick layers action buttons"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <ellipse
        ry="20.669155"
@@ -3410,7 +3545,7 @@
     </g>
   </g>
   <g
-     style="display:inline;opacity:1"
+     style="display:none;opacity:1"
      inkscape:label="layers actions menu"
      id="g4201"
      inkscape:groupmode="layer"
@@ -3727,597 +3862,6 @@
          id="path913-6"
          style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.37100005;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:1.3710001, 4.11300029;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer18"
-     inkscape:label="layers menu expanded"
-     style="display:none"
-     sodipodi:insensitive="true">
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4670-5)"
-       id="rect4585-0-4"
-       width="100.27954"
-       height="86.809135"
-       x="12.254301"
-       y="211.50812" />
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4666-4)"
-       id="rect4585-0-8-6"
-       width="100.27955"
-       height="86.809135"
-       x="12.254301"
-       y="318.39978" />
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4662-92)"
-       id="rect4585-0-8-9-9"
-       width="100.27955"
-       height="86.809135"
-       x="12.254301"
-       y="427.40811" />
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4585-0-7-2"
-       width="100.27955"
-       height="86.809135"
-       x="12.254301"
-       y="211.50812" />
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4585-0-8-5-2"
-       width="100.27955"
-       height="86.809135"
-       x="12.254301"
-       y="318.39981" />
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4585-0-8-9-7-47"
-       width="100.27955"
-       height="86.809135"
-       x="12.254301"
-       y="427.40811" />
-    <g
-       style="display:inline"
-       transform="translate(-236.19945,105.83334)"
-       id="g5664-5-5">
-      <g
-         transform="matrix(0.91029266,0,0,0.91029266,248.2037,105.73468)"
-         id="g2934-9-6-1-1"
-         style="display:inline">
-        <path
-           style="fill:none"
-           inkscape:connector-curvature="0"
-           d="M 0,0 H 24 V 24 H 0 Z"
-           id="path2920-7-0-1-1" />
-        <path
-           inkscape:connector-curvature="0"
-           d="M 12,4.5 C 7,4.5 2.73,7.61 1,12 c 1.73,4.39 6,7.5 11,7.5 5,0 9.27,-3.11 11,-7.5 C 21.27,7.61 17,4.5 12,4.5 Z M 12,17 C 9.24,17 7,14.76 7,12 7,9.24 9.24,7 12,7 c 2.76,0 5,2.24 5,5 0,2.76 -2.24,5 -5,5 z m 0,-8 c -1.66,0 -3,1.34 -3,3 0,1.66 1.34,3 3,3 1.66,0 3,-1.34 3,-3 0,-1.66 -1.34,-3 -3,-3 z"
-           id="path2922-2-3-0-0" />
-      </g>
-      <g
-         transform="matrix(0.91321281,0,0,0.91321281,248.26121,170.46699)"
-         id="g5656-3-8">
-        <path
-           style="fill:none"
-           inkscape:connector-curvature="0"
-           d="M 0,0 H 24 V 24 H 0 Z"
-           id="path5642-0-5" />
-        <path
-           inkscape:connector-curvature="0"
-           d="m 12,17 c 1.1,0 2,-0.9 2,-2 0,-1.1 -0.9,-2 -2,-2 -1.1,0 -2,0.9 -2,2 0,1.1 0.9,2 2,2 z M 18,8 H 17 V 6 C 17,3.24 14.76,1 12,1 9.24,1 7,3.24 7,6 h 1.9 c 0,-1.71 1.39,-3.1 3.1,-3.1 1.71,0 3.1,1.39 3.1,3.1 V 8 H 6 C 4.9,8 4,8.9 4,10 v 10 c 0,1.1 0.9,2 2,2 h 12 c 1.1,0 2,-0.9 2,-2 V 10 C 20,8.9 19.1,8 18,8 Z m 0,12 H 6 V 10 h 12 z"
-           id="path5644-0-0" />
-      </g>
-    </g>
-    <g
-       style="display:inline"
-       transform="translate(-236.19945,213.25416)"
-       id="g5664-5-4-6">
-      <g
-         transform="matrix(0.91029266,0,0,0.91029266,248.2037,105.73468)"
-         id="g2934-9-6-1-5-46"
-         style="display:inline">
-        <path
-           style="fill:none"
-           inkscape:connector-curvature="0"
-           d="M 0,0 H 24 V 24 H 0 Z"
-           id="path2920-7-0-1-4-2" />
-        <path
-           inkscape:connector-curvature="0"
-           d="M 12,4.5 C 7,4.5 2.73,7.61 1,12 c 1.73,4.39 6,7.5 11,7.5 5,0 9.27,-3.11 11,-7.5 C 21.27,7.61 17,4.5 12,4.5 Z M 12,17 C 9.24,17 7,14.76 7,12 7,9.24 9.24,7 12,7 c 2.76,0 5,2.24 5,5 0,2.76 -2.24,5 -5,5 z m 0,-8 c -1.66,0 -3,1.34 -3,3 0,1.66 1.34,3 3,3 1.66,0 3,-1.34 3,-3 0,-1.66 -1.34,-3 -3,-3 z"
-           id="path2922-2-3-0-2-5" />
-      </g>
-      <g
-         transform="matrix(0.91321281,0,0,0.91321281,248.26121,170.46699)"
-         id="g5656-3-4-8">
-        <path
-           style="fill:none"
-           inkscape:connector-curvature="0"
-           d="M 0,0 H 24 V 24 H 0 Z"
-           id="path5642-0-9-62" />
-        <path
-           inkscape:connector-curvature="0"
-           d="m 12,17 c 1.1,0 2,-0.9 2,-2 0,-1.1 -0.9,-2 -2,-2 -1.1,0 -2,0.9 -2,2 0,1.1 0.9,2 2,2 z M 18,8 H 17 V 6 C 17,3.24 14.76,1 12,1 9.24,1 7,3.24 7,6 h 1.9 c 0,-1.71 1.39,-3.1 3.1,-3.1 1.71,0 3.1,1.39 3.1,3.1 V 8 H 6 C 4.9,8 4,8.9 4,10 v 10 c 0,1.1 0.9,2 2,2 h 12 c 1.1,0 2,-0.9 2,-2 V 10 C 20,8.9 19.1,8 18,8 Z m 0,12 H 6 V 10 h 12 z"
-           id="path5644-0-9-8" />
-      </g>
-    </g>
-    <g
-       style="display:inline"
-       transform="translate(-236.19945,321.73334)"
-       id="g5664-5-4-9-4">
-      <g
-         transform="matrix(0.91029266,0,0,0.91029266,248.2037,105.73468)"
-         id="g2934-9-6-1-5-4-7"
-         style="display:inline">
-        <path
-           style="fill:none"
-           inkscape:connector-curvature="0"
-           d="M 0,0 H 24 V 24 H 0 Z"
-           id="path2920-7-0-1-4-9-2" />
-        <path
-           inkscape:connector-curvature="0"
-           d="M 12,4.5 C 7,4.5 2.73,7.61 1,12 c 1.73,4.39 6,7.5 11,7.5 5,0 9.27,-3.11 11,-7.5 C 21.27,7.61 17,4.5 12,4.5 Z M 12,17 C 9.24,17 7,14.76 7,12 7,9.24 9.24,7 12,7 c 2.76,0 5,2.24 5,5 0,2.76 -2.24,5 -5,5 z m 0,-8 c -1.66,0 -3,1.34 -3,3 0,1.66 1.34,3 3,3 1.66,0 3,-1.34 3,-3 0,-1.66 -1.34,-3 -3,-3 z"
-           id="path2922-2-3-0-2-8-4" />
-      </g>
-      <g
-         transform="matrix(0.91321281,0,0,0.91321281,248.26121,170.46699)"
-         id="g5656-3-4-1-0">
-        <path
-           style="fill:none"
-           inkscape:connector-curvature="0"
-           d="M 0,0 H 24 V 24 H 0 Z"
-           id="path5642-0-9-6-6" />
-        <path
-           inkscape:connector-curvature="0"
-           d="m 12,17 c 1.1,0 2,-0.9 2,-2 0,-1.1 -0.9,-2 -2,-2 -1.1,0 -2,0.9 -2,2 0,1.1 0.9,2 2,2 z M 18,8 H 17 V 6 C 17,3.24 14.76,1 12,1 9.24,1 7,3.24 7,6 h 1.9 c 0,-1.71 1.39,-3.1 3.1,-3.1 1.71,0 3.1,1.39 3.1,3.1 V 8 H 6 C 4.9,8 4,8.9 4,10 v 10 c 0,1.1 0.9,2 2,2 h 12 c 1.1,0 2,-0.9 2,-2 V 10 C 20,8.9 19.1,8 18,8 Z m 0,12 H 6 V 10 h 12 z"
-           id="path5644-0-9-3-29" />
-      </g>
-    </g>
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4662-9-3)"
-       id="rect4585-0-8-9-3-9"
-       width="100.27955"
-       height="86.809135"
-       x="12.254301"
-       y="530.06647" />
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4585-0-8-9-7-4-0"
-       width="100.27955"
-       height="86.809135"
-       x="12.254301"
-       y="530.06647" />
-    <g
-       style="display:inline"
-       transform="translate(-236.19945,424.39167)"
-       id="g5664-5-4-9-6-8">
-      <g
-         transform="matrix(0.91029266,0,0,0.91029266,248.2037,105.73468)"
-         id="g2934-9-6-1-5-4-1-1"
-         style="display:inline">
-        <path
-           style="fill:none"
-           inkscape:connector-curvature="0"
-           d="M 0,0 H 24 V 24 H 0 Z"
-           id="path2920-7-0-1-4-9-5-3" />
-        <path
-           inkscape:connector-curvature="0"
-           d="M 12,4.5 C 7,4.5 2.73,7.61 1,12 c 1.73,4.39 6,7.5 11,7.5 5,0 9.27,-3.11 11,-7.5 C 21.27,7.61 17,4.5 12,4.5 Z M 12,17 C 9.24,17 7,14.76 7,12 7,9.24 9.24,7 12,7 c 2.76,0 5,2.24 5,5 0,2.76 -2.24,5 -5,5 z m 0,-8 c -1.66,0 -3,1.34 -3,3 0,1.66 1.34,3 3,3 1.66,0 3,-1.34 3,-3 0,-1.66 -1.34,-3 -3,-3 z"
-           id="path2922-2-3-0-2-8-6-1" />
-      </g>
-      <g
-         transform="matrix(0.91321281,0,0,0.91321281,248.26121,170.46699)"
-         id="g5656-3-4-1-1-1">
-        <path
-           style="fill:none"
-           inkscape:connector-curvature="0"
-           d="M 0,0 H 24 V 24 H 0 Z"
-           id="path5642-0-9-6-7-0" />
-        <path
-           inkscape:connector-curvature="0"
-           d="m 12,17 c 1.1,0 2,-0.9 2,-2 0,-1.1 -0.9,-2 -2,-2 -1.1,0 -2,0.9 -2,2 0,1.1 0.9,2 2,2 z M 18,8 H 17 V 6 C 17,3.24 14.76,1 12,1 9.24,1 7,3.24 7,6 h 1.9 c 0,-1.71 1.39,-3.1 3.1,-3.1 1.71,0 3.1,1.39 3.1,3.1 V 8 H 6 C 4.9,8 4,8.9 4,10 v 10 c 0,1.1 0.9,2 2,2 h 12 c 1.1,0 2,-0.9 2,-2 V 10 C 20,8.9 19.1,8 18,8 Z m 0,12 H 6 V 10 h 12 z"
-           id="path5644-0-9-3-2-3" />
-      </g>
-    </g>
-    <g
-       transform="translate(-236.19945,4.8750003e-6)"
-       id="g5836-4"
-       style="display:inline;opacity:0.40100002">
-      <rect
-         y="105.67476"
-         x="248.45375"
-         height="86.809135"
-         width="100.27953"
-         id="rect4585-03"
-         style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4674-43)" />
-      <rect
-         y="105.67477"
-         x="248.45375"
-         height="86.809135"
-         width="100.27953"
-         id="rect4585-1-9"
-         style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <g
-         transform="matrix(2.155,0,0,2.155,272.85458,122.54416)"
-         id="g3235-2-1"
-         style="display:inline">
-        <path
-           style="fill:none"
-           inkscape:connector-curvature="0"
-           d="M 0,0 H 24 V 24 H 0 Z"
-           id="path3221-92-9" />
-        <path
-           inkscape:connector-curvature="0"
-           d="m 19,13 h -6 v 6 H 11 V 13 H 5 v -2 h 6 V 5 h 2 v 6 h 6 z"
-           id="path3223-8-6" />
-      </g>
-    </g>
-    <g
-       id="g3489">
-      <rect
-         y="107.64544"
-         x="130.6441"
-         height="563.05914"
-         width="380.73788"
-         id="rect4585-0-8-9-3-2-9"
-         style="display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4662-9-9-7)" />
-      <rect
-         y="107.64545"
-         x="130.64413"
-         height="563.05914"
-         width="380.73792"
-         id="rect4585-0-8-9-3-2-8-3"
-         style="display:inline;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
-    <g
-       id="g3554"
-       transform="translate(-32.740517,-83.020598)">
-      <path
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#a8cbee;stroke-width:2.06500006;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 239.00028,269.70212 H 388.49434"
-         id="path3565-7-0"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#1976d2;stroke-width:2.06500006;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 239.00028,269.70212 H 388.49434"
-         id="path3567-1-5"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <ellipse
-         style="display:inline;opacity:1;vector-effect:none;fill:#1976d2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.06499982;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="ellipse3569-2-6"
-         ry="6.1471987"
-         rx="5.9801569"
-         cy="269.7356"
-         cx="388.84109" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.60421848px;line-height:1.25;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.32508788"
-         x="405.81058"
-         y="276.02979"
-         id="text3573-2-6"><tspan
-           sodipodi:role="line"
-           x="405.81058"
-           y="276.02979"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.60421848px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;stroke-width:0.32508788"
-           id="tspan3571-1-4">100%</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29956776"
-         x="173.06522"
-         y="273.21606"
-         id="text3577-5-0"><tspan
-           sodipodi:role="line"
-           id="tspan3575-0-0"
-           x="173.06522"
-           y="273.21606"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.29956776">Opacity</tspan></text>
-      <path
-         style="display:inline;opacity:1;fill:none;stroke:#949494;stroke-width:1.16499996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 405.21931,286.60369 h 42.23883"
-         id="path3579-9-4"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-    </g>
-    <g
-       style="display:inline"
-       id="g5347-6"
-       transform="translate(115.08525,-277.12109)">
-      <g
-         id="g1999-0-1-2"
-         style="display:inline"
-         transform="translate(-173.19065,289.8174)">
-        <rect
-           style="opacity:1;vector-effect:none;fill:#1976d2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.06499982;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect1931-9-3-6"
-           width="18.174337"
-           height="18.307968"
-           x="204.92891"
-           y="233.08217"
-           ry="2.0045214" />
-        <path
-           style="fill:none;stroke:#ffffff;stroke-width:1.96500003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 220.36011,237.71523 -8.29185,8.17373 -4.34673,-4.25223"
-           id="path1934-7-0-7"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccc" />
-      </g>
-      <text
-         id="text1910-2-1-2-5"
-         y="540.32593"
-         x="60.67078"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29956776"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.29956776"
-           y="540.32593"
-           x="60.67078"
-           id="tspan1908-4-6-1-6"
-           sodipodi:role="line">Visible</tspan></text>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29956776"
-       x="274.33762"
-       y="263.20483"
-       id="text1910-2-1-2-2-8"><tspan
-         sodipodi:role="line"
-         id="tspan1908-4-6-1-1-7"
-         x="274.33762"
-         y="263.20483"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.29956776">Locked</tspan></text>
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#1976d2;stroke-width:1.96500003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1931-3-8-9-3-2-5-2"
-       width="16.203209"
-       height="16.387005"
-       x="246.39633"
-       y="247.33575"
-       ry="1.0857817" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29956776"
-       x="176.59846"
-       y="329.21948"
-       id="text1910-2-1-6-7-7-2"><tspan
-         sodipodi:role="line"
-         id="tspan1908-4-6-2-5-2-9"
-         x="176.59846"
-         y="329.21948"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.29956776">Locked Alpha</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29956776"
-       x="176.26317"
-       y="294.99329"
-       id="text1910-2-1-6-7-76"><tspan
-         sodipodi:role="line"
-         id="tspan1908-4-6-2-5-1"
-         x="176.26317"
-         y="294.99329"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.29956776">Inherit Alpha</tspan></text>
-    <g
-       id="g3868"
-       transform="translate(-5.7877604)">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29956776"
-         x="143.6965"
-         y="136.89447"
-         id="text3559-7-3"><tspan
-           sodipodi:role="line"
-           id="tspan3557-7-8"
-           x="143.6965"
-           y="136.89447"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.29956776">Blend Mode</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.60421848px;line-height:1.25;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.32508788"
-         x="245.04784"
-         y="134.64809"
-         id="text3555-9-3-5-5"><tspan
-           sodipodi:role="line"
-           x="245.04784"
-           y="134.64809"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.60421848px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;stroke-width:0.32508788"
-           id="tspan3553-6-6-3-9">Normal</tspan></text>
-      <path
-         style="display:inline;opacity:1;fill:none;stroke:#949494;stroke-width:1.16499996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 244.98712,145.35423 H 365.10023"
-         id="path3561-3-7-5-9"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         sodipodi:nodetypes="cccc"
-         inkscape:connector-curvature="0"
-         id="path2143-6-1"
-         d="m 348.18811,127.81289 4.63021,4.86407 4.96094,-4.82865 z"
-         style="display:inline;fill:#757575;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </g>
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#1976d2;stroke-width:1.52100003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4585-0-7-2-4"
-       width="100.27955"
-       height="86.809135"
-       x="12.254301"
-       y="211.50812" />
-    <g
-       style="display:inline"
-       id="g5340-8-9"
-       transform="translate(-29.25119,-191.63483)">
-      <text
-         id="text1910-2-1-6-7-7-2-1"
-         y="587.8999"
-         x="206.59995"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29956776"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.29956776"
-           y="587.8999"
-           x="206.59995"
-           id="tspan1908-4-6-2-5-2-9-0"
-           sodipodi:role="line">Red</tspan></text>
-      <g
-         id="g1999-0-1-6-9-7"
-         style="display:inline"
-         transform="translate(-27.39513,338.08256)">
-        <rect
-           style="opacity:1;vector-effect:none;fill:#1976d2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.06499982;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect1931-9-3-5-6-5"
-           width="18.174337"
-           height="18.307968"
-           x="204.92891"
-           y="233.08217"
-           ry="2.0045214" />
-        <path
-           style="fill:none;stroke:#ffffff;stroke-width:1.96500003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 220.36011,237.71523 -8.29185,8.17373 -4.34673,-4.25223"
-           id="path1934-7-0-4-0-8"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccc" />
-      </g>
-    </g>
-    <g
-       style="display:inline"
-       id="g5340-8-9-7"
-       transform="translate(-29.251191,-154.21709)">
-      <text
-         id="text1910-2-1-6-7-7-2-1-0"
-         y="587.8999"
-         x="206.59995"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29956776"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.29956776"
-           y="587.8999"
-           x="206.59995"
-           id="tspan1908-4-6-2-5-2-9-0-4"
-           sodipodi:role="line">Blue</tspan></text>
-      <g
-         id="g1999-0-1-6-9-7-8"
-         style="display:inline"
-         transform="translate(-27.39513,338.08256)">
-        <rect
-           style="opacity:1;vector-effect:none;fill:#1976d2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.06499982;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect1931-9-3-5-6-5-0"
-           width="18.174337"
-           height="18.307968"
-           x="204.92891"
-           y="233.08217"
-           ry="2.0045214" />
-        <path
-           style="fill:none;stroke:#ffffff;stroke-width:1.96500003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 220.36011,237.71523 -8.29185,8.17373 -4.34673,-4.25223"
-           id="path1934-7-0-4-0-8-4"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccc" />
-      </g>
-    </g>
-    <g
-       style="display:inline"
-       id="g5340-8-9-2"
-       transform="translate(71.308969,-191.63482)">
-      <text
-         id="text1910-2-1-6-7-7-2-1-9"
-         y="587.8999"
-         x="206.59995"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29956776"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.29956776"
-           y="587.8999"
-           x="206.59995"
-           id="tspan1908-4-6-2-5-2-9-0-6"
-           sodipodi:role="line">Green</tspan></text>
-      <g
-         id="g1999-0-1-6-9-7-1"
-         style="display:inline"
-         transform="translate(-27.39513,338.08256)">
-        <rect
-           style="opacity:1;vector-effect:none;fill:#1976d2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.06499982;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect1931-9-3-5-6-5-04"
-           width="18.174337"
-           height="18.307968"
-           x="204.92891"
-           y="233.08217"
-           ry="2.0045214" />
-        <path
-           style="fill:none;stroke:#ffffff;stroke-width:1.96500003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 220.36011,237.71523 -8.29185,8.17373 -4.34673,-4.25223"
-           id="path1934-7-0-4-0-8-2"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccc" />
-      </g>
-    </g>
-    <g
-       style="display:inline"
-       id="g5340-8-9-7-2"
-       transform="translate(71.308969,-154.21707)">
-      <text
-         id="text1910-2-1-6-7-7-2-1-0-2"
-         y="587.8999"
-         x="206.59995"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29956776"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.97694492px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:0.29956776"
-           y="587.8999"
-           x="206.59995"
-           id="tspan1908-4-6-2-5-2-9-0-4-0"
-           sodipodi:role="line">Alpha</tspan></text>
-      <g
-         id="g1999-0-1-6-9-7-8-5"
-         style="display:inline"
-         transform="translate(-27.39513,338.08256)">
-        <rect
-           style="opacity:1;vector-effect:none;fill:#1976d2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.06499982;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect1931-9-3-5-6-5-0-5"
-           width="18.174337"
-           height="18.307968"
-           x="204.92891"
-           y="233.08217"
-           ry="2.0045214" />
-        <path
-           style="fill:none;stroke:#ffffff;stroke-width:1.96500003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 220.36011,237.71523 -8.29185,8.17373 -4.34673,-4.25223"
-           id="path1934-7-0-4-0-8-4-2"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccc" />
-      </g>
-    </g>
-    <text
-       id="text3559-7-3-9"
-       y="361.18777"
-       x="140.86116"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.97694492px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29956776"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.97694492px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.29956776"
-         y="361.18777"
-         x="140.86116"
-         id="tspan3557-7-8-0"
-         sodipodi:role="line">Active Channels</tspan></text>
-    <text
-       id="text3559-7-3-9-2"
-       y="227.8871"
-       x="140.86116"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.97694492px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29956776"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.97694492px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.29956776"
-         y="227.8871"
-         x="140.86116"
-         id="tspan3557-7-8-0-8"
-         sodipodi:role="line">Layer Properties</tspan></text>
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#1976d2;stroke-width:1.96500003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1931-3-8-9-3-2-5-2-3"
-       width="16.203209"
-       height="16.387005"
-       x="148.16794"
-       y="279.06317"
-       ry="1.0857817" />
-    <rect
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#1976d2;stroke-width:1.96500003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect1931-3-8-9-3-2-5-2-8"
-       width="16.203209"
-       height="16.387005"
-       x="148.37463"
-       y="313.47968"
-       ry="1.0857817" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4855,163 +4399,163 @@
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_13.png"
        xlink:href="linked_images/tips/tip_13.png"
-       width="60.56348"
-       height="60.56348"
-       preserveAspectRatio="none"
-       id="image2732-1"
-       x="24.571669"
+       style="display:inline"
        y="370.26437"
-       style="display:inline" />
+       x="24.571669"
+       id="image2732-1"
+       preserveAspectRatio="none"
+       height="60.56348"
+       width="60.56348" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_14.png"
        xlink:href="linked_images/tips/tip_14.png"
-       width="33.704891"
-       height="33.704891"
-       preserveAspectRatio="none"
-       id="image2765-4"
-       x="123.33265"
+       style="display:inline"
        y="383.72061"
-       style="display:inline" />
+       x="123.33265"
+       id="image2765-4"
+       preserveAspectRatio="none"
+       height="33.704891"
+       width="33.704891" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_15.png"
        xlink:href="linked_images/tips/tip_15.png"
-       width="15.59746"
-       height="62.389832"
-       preserveAspectRatio="none"
-       id="image2776-9"
-       x="214.41568"
+       style="display:inline"
        y="369.20096"
-       style="display:inline" />
+       x="214.41568"
+       id="image2776-9"
+       preserveAspectRatio="none"
+       height="62.389832"
+       width="15.59746" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_9.png"
        xlink:href="linked_images/tips/tip_9.png"
-       width="61.929127"
-       height="61.929127"
-       preserveAspectRatio="none"
-       id="image2787-8"
-       x="24.401663"
+       style="display:inline"
        y="300.74741"
-       style="display:inline" />
+       x="24.401663"
+       id="image2787-8"
+       preserveAspectRatio="none"
+       height="61.929127"
+       width="61.929127" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_16.png"
        xlink:href="linked_images/tips/tip_16.png"
-       width="17.379087"
-       height="19.48564"
-       preserveAspectRatio="none"
-       id="image2798-3"
-       x="300.40976"
+       style="display:inline"
        y="388.15747"
-       style="display:inline" />
+       x="300.40976"
+       id="image2798-3"
+       preserveAspectRatio="none"
+       height="19.48564"
+       width="17.379087" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_11.png"
        xlink:href="linked_images/tips/tip_11.png"
-       width="24.752031"
-       height="23.698753"
-       preserveAspectRatio="none"
-       id="image2809-8"
-       x="214.40439"
+       style="display:inline"
        y="324.04437"
-       style="display:inline" />
+       x="214.40439"
+       id="image2809-8"
+       preserveAspectRatio="none"
+       height="23.698753"
+       width="24.752031" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_12.png"
        xlink:href="linked_images/tips/tip_12.png"
-       width="43.711037"
-       height="43.184395"
-       preserveAspectRatio="none"
-       id="image2820-5"
-       x="290.4512"
+       style="display:inline"
        y="314.30157"
-       style="display:inline" />
+       x="290.4512"
+       id="image2820-5"
+       preserveAspectRatio="none"
+       height="43.184395"
+       width="43.711037" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_5.png"
        xlink:href="linked_images/tips/tip_5.png"
-       width="39.950497"
-       height="39.950497"
-       preserveAspectRatio="none"
-       id="image2831-2"
-       x="32.282688"
+       style="display:inline"
        y="238.38159"
-       style="display:inline" />
+       x="32.282688"
+       id="image2831-2"
+       preserveAspectRatio="none"
+       height="39.950497"
+       width="39.950497" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_6.png"
        xlink:href="linked_images/tips/tip_6.png"
-       width="39.950497"
-       height="39.950497"
-       preserveAspectRatio="none"
-       id="image2842-2"
-       x="118.42595"
+       style="display:inline"
        y="238.91614"
-       style="display:inline" />
+       x="118.42595"
+       id="image2842-2"
+       preserveAspectRatio="none"
+       height="39.950497"
+       width="39.950497" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_10.png"
        xlink:href="linked_images/tips/tip_10.png"
-       width="4.2131114"
-       height="8.4262228"
-       preserveAspectRatio="none"
-       id="image2853-2"
-       x="139.14761"
+       style="display:inline"
        y="331.68069"
-       style="display:inline" />
+       x="139.14761"
+       id="image2853-2"
+       preserveAspectRatio="none"
+       height="8.4262228"
+       width="4.2131114" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_7.png"
        xlink:href="linked_images/tips/tip_7.png"
-       width="29.146843"
-       height="29.146843"
-       preserveAspectRatio="none"
-       id="image2864-7"
-       x="210.89072"
+       style="display:inline"
        y="245.14853"
-       style="display:inline" />
+       x="210.89072"
+       id="image2864-7"
+       preserveAspectRatio="none"
+       height="29.146843"
+       width="29.146843" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_8.png"
        xlink:href="linked_images/tips/tip_8.png"
-       width="15.799172"
-       height="15.799172"
-       preserveAspectRatio="none"
-       id="image2875-0"
-       x="302.05557"
+       style="display:inline"
        y="259.57321"
-       style="display:inline" />
+       x="302.05557"
+       id="image2875-0"
+       preserveAspectRatio="none"
+       height="15.799172"
+       width="15.799172" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_1.png"
        xlink:href="linked_images/tips/tip_1.png"
-       width="52.663895"
-       height="51.347301"
-       preserveAspectRatio="none"
-       id="image2886-3"
-       x="27.355474"
+       style="display:inline"
        y="167.71584"
-       style="display:inline" />
+       x="27.355474"
+       id="image2886-3"
+       preserveAspectRatio="none"
+       height="51.347301"
+       width="52.663895" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_2.png"
        xlink:href="linked_images/tips/tip_2.png"
-       width="56.087051"
-       height="50.82066"
-       preserveAspectRatio="none"
-       id="image2897-4"
-       x="114.84621"
+       style="display:inline"
        y="167.97913"
-       style="display:inline" />
+       x="114.84621"
+       id="image2897-4"
+       preserveAspectRatio="none"
+       height="50.82066"
+       width="56.087051" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_3.png"
        xlink:href="linked_images/tips/tip_3.png"
-       width="62.889908"
-       height="62.889908"
-       preserveAspectRatio="none"
-       id="image2908-6"
-       x="194.73314"
+       style="display:inline"
        y="162.07812"
-       style="display:inline" />
+       x="194.73314"
+       id="image2908-6"
+       preserveAspectRatio="none"
+       height="62.889908"
+       width="62.889908" />
     <image
        sodipodi:absref="/home/bobajeff/Rust/Paint_Tool_Project/paint_tool/design/images/src/linked_images/tips/tip_4.png"
        xlink:href="linked_images/tips/tip_4.png"
-       width="44.237675"
-       height="44.237675"
-       preserveAspectRatio="none"
-       id="image2919-3"
-       x="287.08032"
+       style="display:inline"
        y="171.27068"
-       style="display:inline" />
+       x="287.08032"
+       id="image2919-3"
+       preserveAspectRatio="none"
+       height="44.237675"
+       width="44.237675" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.22896099px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.29643667"
