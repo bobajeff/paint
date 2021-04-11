@@ -103,3 +103,8 @@
   * jpeg
 * smartphone support
 * wacom tablet support
+  * Tip Pressure
+  * In Range (if the pen is in range)
+  * Tip Switch 
+  * Secondary Tip Switch
+  * Detect stylus or eraser (if the pen is in stylus or eraser mode)
