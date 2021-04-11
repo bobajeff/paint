@@ -102,7 +102,7 @@
   * png
   * jpeg
 * smartphone support
-* wacom tablet support
+* Active Stylus / Digitizer support
   * Tip Pressure
   * In Range (if the pen is in range)
   * Tip Switch 
