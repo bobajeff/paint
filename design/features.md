@@ -104,7 +104,9 @@
 * smartphone support
 * Active Stylus / Digitizer support
   * Tip Pressure
-  * In Range (if the pen is in range)
   * Tip Switch 
+  * Tilt X
+  * Tilt Y
+  * Twist
   * Secondary Tip Switch
   * Detect stylus or eraser (if the pen is in stylus or eraser mode)

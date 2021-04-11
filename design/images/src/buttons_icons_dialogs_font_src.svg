@@ -2793,7 +2793,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="switch mui"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     style="display:none">
     <image
        y="5.6843419e-14"
        x="0"
