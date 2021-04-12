@@ -37,9 +37,31 @@ Layer properties can be accessed either by tapping on the focused layer or via L
 
 The paint menu will appear on clicking the hamburger button in the top left.
 
-![*](images/General%20Brush%20Settings.png)
+
+## Tool Settings
+![*](images/Pixel%20Brush%20Settings.png)
+
+Placeholder Text
+
+![*](images/General%20Settings.png)
 
 The brush settings appear when you tap on the focused brush in the toolbox or when you long press the brush and tap the brush settings button.
+
+![scrolled down](./images/General%20Settings%20-%20Regular.png)
+
+Placeholder Text
+
+![stylus](./images/Stylus%20Settings.png)
+
+Placeholder Text
+
+![opacity](./images/Stylus%20Settings%20-%20Opacity.png)
+
+Placeholder Text
+
+![flow](./images/Stylus%20Settings%20-%20Flow.png)
+
+Placeholder Text
 
 ![*](images/Brush%20Selection.png)
 
