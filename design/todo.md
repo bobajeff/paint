@@ -2,10 +2,10 @@
 
 - [ ] mock up smarphone interface
     - [ ] workout the interface for planned features
-    - [ ] polish the brush settings and selection ui
+    - [x] polish the brush settings and selection ui
         - [x] mock up a quick action buttons for the tools in the toolbox
     - [x] mock up low-level settings interface
-    - [ ] polish quick action buttons (for layers and tools)
+    - [x] polish quick action buttons (for layers and tools)
         - maybe move them up at the top with the normal buttons as context buttons
     - [ ] polish normal buttons 
     - [ ] figure out how non-brush/pen tools fit in with the ui

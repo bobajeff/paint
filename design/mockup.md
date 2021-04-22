@@ -2,17 +2,18 @@
 ## Toolbox
 ![toolbox](images/Toolbox.png)
 
-The toolbox will expand if you drag it up or tap on the focused tool.
 
-![toolbox expanded](images/Toolbox%20Expanded.png)
+![toolbox expanded](images/QuickSettings.png)
 
-![toolbox fully expanded](images/Toolbox%20Fully%20Expanded.png)
+Tap the focused tool to open the Quick Settings for that tool.
 
-There are three levels of expansion. Drag up on the toolbox all the way to show it fully. The Toolbox will collapse once it looses focus.
+![toolbox longpress](images/Select%20Tool.png)
 
-![toolbox longpress](images/Toolbox_Long_Press.png)
+Long press a tool in the toolbox to edit the tool. (change brush, change tool settings, remove brush)
 
-Long press a tool in the toolbox to edit the tool. (change brush, brush settings, remove brush)
+![toolbox longpress](images/Tools%20Multi%20Selection.png)
+
+When in selection mode, tap the other tools to add to selection.
 
 ## Layers
 
@@ -20,13 +21,12 @@ Long press a tool in the toolbox to edit the tool. (change brush, brush settings
 
 Tap the Layers button in the top right to show all the layers in the file.
 
-The Layer action button appears when you long press a layer.
-You can select multiple layers while the action buttons/menu is active.
-You can also move the layer(s) by dragging it through the stack.
+![*](images/Layer%20Select.png)
 
-![*](images/Layers%20Menu.png)
+Same at the Tools you can select multiple layers when in selection mode.
 
-You access this menu by tapping the more actions (`...`) button.
+![*](images/Layer%20Selection%20More%20Options.png)
+
 
 ![*](images/Layer%20Properties.png)
 
