@@ -43,25 +43,21 @@ The paint menu will appear on clicking the hamburger button in the top left.
 
 Placeholder Text
 
-![*](images/General%20Settings.png)
+![*](images/Basic%20Settings.png)
 
 The brush settings appear when you tap on the focused brush in the toolbox or when you long press the brush and tap the brush settings button.
 
-![scrolled down](./images/General%20Settings%20-%20Regular.png)
+![scrolled down](images/Brush%20Dynamic%20Presets.png)
 
-Placeholder Text
+Here, you can select from a list of predefined Brush Dynamics, create a new one, copy delete, or edit.
 
-![stylus](./images/Stylus%20Settings.png)
+![scrolled down](images/Edit%20Brush%20Dynamics.png)
 
-Placeholder Text
+Here you can select a input ( like `Pen Pressure`) or starting function (like `randomNumber`) and tranform it with the a function (like `linearCurve`) and set the `Brush Tip Size`.
 
-![opacity](./images/Stylus%20Settings%20-%20Opacity.png)
+![scrolled down](images/Curve%20Widget.png)
 
-Placeholder Text
-
-![flow](./images/Stylus%20Settings%20-%20Flow.png)
-
-Placeholder Text
+Tap on a transform Function to open it's widget and change values.
 
 ![*](images/Brush%20Selection.png)
 
