@@ -51,9 +51,13 @@ Placeholder Text
 
 The brush settings appear when you tap on the focused brush in the toolbox or when you long press the brush and tap the brush settings button.
 
-![scrolled down](images/Brush%20Dynamic%20Presets.png)
+![brush dynamics](images/Brush%20Dynamic%20Presets.png)
 
-Here, you can select from a list of predefined Brush Dynamics, create a new one, copy delete, or edit.
+You can select from a list of predefined Brush Dynamics.
+
+![brush dynamics selection mode](images/Dynamic%20Presets%20List%20Item%20Selection.png)
+
+Long press to trigger selection mode.
 
 ![scrolled down](images/Edit%20Brush%20Dynamics.png)
 
@@ -66,3 +70,7 @@ Tap on a transform Function to open it's widget and change values.
 ![*](images/Brush%20Selection.png)
 
 Brush selection screen shows up when add a new brush or when you long press a brush and tap on the brush select button.
+
+![*](images/Brush%20List%20Item%20Selection.png)
+
+Long press to trigger selection mode.
