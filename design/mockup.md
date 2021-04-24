@@ -3,6 +3,10 @@
 ![toolbox](images/Toolbox.png)
 
 
+![toolbox expanded](images/Toolbox%20Page%202.png)
+
+Swipe left on the Toolbox to view next page of tools (or right to view previous page of tools).
+
 ![toolbox expanded](images/QuickSettings.png)
 
 Tap the focused tool to open the Quick Settings for that tool.

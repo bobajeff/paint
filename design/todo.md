@@ -8,6 +8,7 @@
     - [x] polish quick action buttons (for layers and tools)
         - maybe move them up at the top with the normal buttons as context buttons
     - [ ] polish normal buttons 
+    - [ ] polish up Brush Dynamic Presets Menu & Brush Selection Menu
     - [ ] figure out how non-brush/pen tools fit in with the ui
     - [x] mock up undo/redo in the ui
 - [ ] Implement base features

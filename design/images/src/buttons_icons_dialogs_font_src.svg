@@ -3358,11 +3358,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.1767767"
-     inkscape:cx="-305.95057"
-     inkscape:cy="1597.1055"
+     inkscape:zoom="1"
+     inkscape:cx="1026.5874"
+     inkscape:cy="1383.8977"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer9"
+     inkscape:current-layer="layer14"
      showgrid="false"
      inkscape:window-width="1440"
      inkscape:window-height="839"
@@ -3901,8 +3901,7 @@
      inkscape:groupmode="layer"
      id="layer14"
      inkscape:label="icons src"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <g
        id="g2790-3-0"
        transform="matrix(0.91029266,0,0,0.91029266,101.07868,170.71427)"
@@ -4666,6 +4665,30 @@
          d="M 0,0 H 24 V 24 H 0 Z"
          inkscape:connector-curvature="0"
          style="fill:none" />
+    </g>
+    <g
+       style="fill:#000000"
+       id="g1252"
+       transform="matrix(0.26458333,0,0,0.26458333,251.26558,317.12079)">
+      <path
+         d="M 0,0 H 24 V 24 H 0 Z"
+         fill="none"
+         id="path1238" />
+      <path
+         d="M 10.02,6 8.61,7.41 13.19,12 8.61,16.59 10.02,18 l 6,-6 z"
+         id="path1240" />
+    </g>
+    <g
+       style="fill:#000000"
+       id="g1268"
+       transform="matrix(0.26458333,0,0,0.26458333,237.52104,320.44632)">
+      <path
+         d="M 0,0 H 24 V 24 H 0 Z"
+         fill="none"
+         id="path1254" />
+      <path
+         d="M 15.61,7.41 14.2,6 l -6,6 6,6 1.41,-1.41 L 11.03,12 Z"
+         id="path1256" />
     </g>
   </g>
   <g
@@ -6584,7 +6607,8 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="diagonal lines"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     style="display:none">
     <g
        id="g7176"
        style="display:inline"
