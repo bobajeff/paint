@@ -43,17 +43,23 @@ The paint menu will appear on clicking the hamburger button in the top left.
 
 
 ## Tool Settings
-![*](images/Pixel%20Brush%20Settings.png)
-
-Placeholder Text
-
 ![*](images/Basic%20Settings.png)
 
 The brush settings appear when you tap on the focused brush in the toolbox or when you long press the brush and tap the brush settings button.
 
+When editing brush settings a stroke of the brush is rendered.
+
+![*](images/ScratchPad.png)
+
+Tap the squiggle icon to open the scratchpad. So you can test the brush while editing it.
+
+![*](images/Basic%20Settings%20Bottom.png)
+
+*The bottom of the pixel brush settings*
+
 ![brush dynamics](images/Brush%20Dynamic%20Presets.png)
 
-You can select from a list of predefined Brush Dynamics.
+Part of the Brush Settings is Brush Dynamics. You can select from a list of predefined dynamics or create a custom dynamics preset.
 
 ![brush dynamics selection mode](images/Dynamic%20Presets%20List%20Item%20Selection.png)
 
