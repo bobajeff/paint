@@ -67,11 +67,23 @@ Long press to trigger selection mode.
 
 ![scrolled down](images/Edit%20Brush%20Dynamics.png)
 
-Here you can select a input ( like `Pen Pressure`) or starting function (like `randomNumber`) and tranform it with the a function (like `linearCurve`) and set the `Brush Tip Size`.
+Here you add Paint Options. (Pressing the "+" button.)
 
-![scrolled down](images/Curve%20Widget.png)
+![paint option](images/Edit%20Paint%20Option.png)
 
-Tap on a transform Function to open it's widget and change values.
+Here you add Dynamic Inputs. (Pressing the "+" button.
+
+![dynamic input](images/Edit%20Dynamic%20Input.png)
+
+Editing Dynamic Input.
+
+![Add Curve](images/Input%20Mapping%20Curves.png)
+
+Select a Curve.
+
+![Edit Curve](images/Edit%20Curve.png)
+
+Edit a Curve.
 
 ![*](images/Brush%20Selection.png)
 
