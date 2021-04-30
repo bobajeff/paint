@@ -55,11 +55,15 @@ The paint menu will appear on clicking the hamburger button in the top left.
 
 The brush settings appear when you tap on the focused brush in the toolbox or when you long press the brush and tap the brush settings button.
 
-When editing brush settings a stroke of the brush is rendered.
+When editing brush settings a stroke of the brush is rendered in a preview overlay.
+
+![popover menu](images/PreviewPopover.png)
+
+Tapping more ("...") button. You can optionally change the background of the preview/scratchpad. Or hide the preiew/scratchpad altogether.
 
 ![*](images/ScratchPad.png)
 
-Tap the squiggle icon to open the scratchpad. So you can test the brush while editing it.
+The Scratchpad overlay lets you can test the brush while editing it.
 
 ![*](images/Basic%20Settings%20Bottom.png)
 
