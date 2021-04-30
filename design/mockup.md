@@ -11,6 +11,14 @@ Swipe left on the Toolbox to view next page of tools (or right to view previous 
 
 Tap the focused tool to open the Quick Settings for that tool.
 
+![add color](images/AddNewColor.png)
+
+Tap a focused color or the + icon to open the color selector.
+
+![add color](images/ColorLevels.png)
+
+Tap settings icon to open up the color levels dialog for more control over colors.
+
 ![toolbox longpress](images/Select%20Tool.png)
 
 Long press a tool in the toolbox to edit the tool. (change brush, change tool settings, remove brush)
