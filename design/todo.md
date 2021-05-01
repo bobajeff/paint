@@ -12,6 +12,8 @@
     - [x] figure out how non-brush/pen tools fit in with the ui
     - [x] mock up undo/redo in the ui
 - [ ] Prototype Interface
+    - [x] Start webpack/node project
+    - [ ] Implement frontend from mockup
 - [ ] Implement base features
     - [ ] Start a base wasmgen project
     - [ ] Implement drawing to canvas

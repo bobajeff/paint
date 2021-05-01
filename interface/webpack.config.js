@@ -10,10 +10,21 @@ module.exports = (env, args) => {
             path: path.resolve(__dirname, 'dist'),
             filename: isProductionMode ? '[name].[contenthash].js' : '[name].[fullhash].js',
         },
+        experiments: {
+            asset: true
+        },
         plugins: [
             new HtmlWebpackPlugin({
                 template: 'index.html'
             }),
-        ]
+        ],
+        module: {
+            rules: [
+              {
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader"],
+              },
+            ],
+          }
     };
 }
