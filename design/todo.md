@@ -14,6 +14,19 @@
 - [ ] Prototype Interface
     - [x] Start webpack/node project
     - [ ] Implement frontend from mockup
+        - [ ] Implemnet single page app
+            - [ ] Use router to handle navigation through the app
+                - [ ] Make editing page
+                    - [ ] Make Toolbox
+                    - [ ] Make Top row of buttons
+                        - Menu
+                        - undo
+                        - redo
+                        - layers
+                - [ ] Make editing/menu page
+                - [ ] Make editing/layers page
+                - [ ] Make editing/tool_selection page
+                - [ ] Make editing/brush_settings page
 - [ ] Implement base features
     - [ ] Start a base wasmgen project
     - [ ] Implement drawing to canvas
