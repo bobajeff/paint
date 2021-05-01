@@ -1,0 +1,17 @@
+{
+  "name": "paint",
+  "version": "0.0.1",
+  "description": "paint program",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --port 9000 --open --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

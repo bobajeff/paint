@@ -11,6 +11,7 @@
     - [x] polish up Brush Dynamic Presets Menu & Brush Selection Menu
     - [x] figure out how non-brush/pen tools fit in with the ui
     - [x] mock up undo/redo in the ui
+- [ ] Prototype Interface
 - [ ] Implement base features
     - [ ] Start a base wasmgen project
     - [ ] Implement drawing to canvas
