@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "webpack serve --port 9000 --open --mode development"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "jeffrey brusseau",
+  "license": "MIT",
   "devDependencies": {
     "html-webpack-plugin": "^5.3.1",
     "webpack": "^5.36.2",
