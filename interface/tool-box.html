@@ -1,0 +1,76 @@
+<style>
+  div {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: flex-end;
+  }
+
+
+  .tool-box {
+    display: inline-block;
+    height: 90%;
+
+    background-color: whitesmoke;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.753));
+  }
+
+  .tool-list {
+
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: transparent;
+  }
+
+  .tool-list button {
+    overflow: hidden;
+
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    width: max-content;
+    background-color: transparent;
+  }
+
+  .tool-list button img {
+    margin: auto;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .tool {
+    border: none;
+    height: 70%;
+  }
+
+  .add-tool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    border: rgba(0, 0, 0, 0.452);
+    border-width: 10px;
+    border-style: dashed;
+    font-size: 6em;
+    font-weight: bold;
+    border-radius: 10%;
+    color: rgba(0, 0, 0, 0.452);
+  }
+
+  .tool-focused {
+    height: 100%;
+    border: none;
+  }
+</style>
+<div>
+  <div class="tool-box"></div>
+  <div class="tool-list">
+    <button class="add-tool" onclick="console.log('add tool');">+</button>
+    <button class="tool-focused" onclick="console.log('focused tool');"><img src="./res/low_res_pen.webp" alt="pen"></button>
+    <button class="tool" onclick="console.log('non-focused tool');"><img src="./res/low_res_pen.webp" alt="pen"></button>
+  </div>
+</div>

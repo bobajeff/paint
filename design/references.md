@@ -4,3 +4,4 @@
 * [Brush Engines — Krita Manual 4.4.0 documentation](https://docs.krita.org/en/reference_manual/brushes/brush_engines.html)
 * [Material-UI_ A popular React UI framework](https://material-ui.com/)
 * [Icons - Google Fonts](https://fonts.google.com/icons)
+* [Components - Material Design](https://material.io/components)
