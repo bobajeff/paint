@@ -18,6 +18,9 @@
             - [ ] Use router to handle navigation through the app
                 - [ ] Make editing page
                     - [ ] Make Toolbox
+                        - make tools selectable on long_press
+                        - make tool give visual feedback when pressed
+                        - make tool get focus if tapped on it (and other tool lose focus)
                     - [ ] Make Top row of buttons
                         - Menu
                         - undo
